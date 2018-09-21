@@ -7,3 +7,5 @@ IO.inspect list ++ [4]
 tuple = {:ok, "hello"}
 IO.inspect tuple
 IO.inspect elem(tuple, 1)
+
+IO.puts 'foo'
