@@ -21,3 +21,7 @@ IO.puts 0x1F
 
 IO.puts 1.0
 IO.puts 1.0e-10
+
+IO.puts round 3.58
+IO.puts round 3.49
+IO.puts trunc 3.58
