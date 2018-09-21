@@ -9,5 +9,5 @@ add_two = fn a -> add.(a, 2) end
 IO.puts add_two.(2)
 
 x = 42
-IO.puts (fn -> x = 0 end).()
+# (fn -> x = 0 end).(x)
 IO.puts x
