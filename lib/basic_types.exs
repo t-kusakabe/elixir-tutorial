@@ -18,3 +18,6 @@ IO.puts rem 10, 3
 IO.puts 0b1010
 IO.puts 0o777
 IO.puts 0x1F
+
+IO.puts 1.0
+IO.puts 1.0e-10
